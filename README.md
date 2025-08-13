@@ -1,16 +1,16 @@
 # Creating my own cli from sratch
 
-Refered to the documentation [by](https://medium.com/@manavshrivastava/lets-build-a-cli-command-line-interface-with-node-js-d3b5faacc5ea) which made it atleast 10 times easier to understand how I can build my own cli from scratch, this is a fairly simple one where the entered string gets translated to a language that has been mentioned in the command line besied the option provided(-l in this case). 
+Refered to the documentation [Lets-build-a-cli-with-node-js](https://medium.com/@manavshrivastava/lets-build-a-cli-command-line-interface-with-node-js-d3b5faacc5ea) which made it atleast 10 times easier to understand how I can build my own cli from scratch, this is a fairly simple one where the entered string gets translated to a language that has been mentioned in the command line besied the option provided(-l in this case). 
 As someone who is exploring git, github and bash commands as well, this was a small project that honestly felt extremely fun to work on though it did take some tries to make it work. 
 If youre using the latest versions of yark, chalk etc etc the above documentation's code might need some tweaks (mine did).
 
   
 ## Libraries used :
-1. Chalk : Adds colors and styles to the console output. [by](https://www.npmjs.com/package/chalk/v/4.1.0)
-2. Yargs : Helps in building the command line interface. [by](https://www.npmjs.com/package/yargs)
-3. Google Translate API :	Allows your CLI to translate text directly in the terminal. [by](https://cloud.google.com/translate/docs/reference/rest)
-4. Figlet : Adds loading spinners while performing async tasks (e.g., fetching data). [by](https://www.npmjs.com/package/figlet)
-5. Boxen : Draws boxes around text in the terminal. [by](https://www.npmjs.com/package/boxen)
+1. Chalk : Adds colors and styles to the console output. [chalk-package](https://www.npmjs.com/package/chalk/v/4.1.0)
+2. Yargs : Helps in building the command line interface. [yargs-package](https://www.npmjs.com/package/yargs)
+3. Google Translate API :	Allows your CLI to translate text directly in the terminal. [google-translate-reference](https://cloud.google.com/translate/docs/reference/rest)
+4. Figlet : Adds loading spinners while performing async tasks (e.g., fetching data). [figlet-package](https://www.npmjs.com/package/figlet)
+5. Boxen : Draws boxes around text in the terminal. [boxen-package](https://www.npmjs.com/package/boxen)
 
 
 
