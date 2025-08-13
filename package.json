@@ -1,0 +1,24 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "translates a sentence from one language to another",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "chhavi",
+  "license": "ISC",
+  "bin": {
+    "mycli": "./bin/index.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.1",
+    "figlet": "^1.5.2",
+    "yargs": "^18.0.0"
+  }
+}
